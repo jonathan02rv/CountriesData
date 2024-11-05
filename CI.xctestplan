@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "AD4987E4-9207-4520-BF10-9E03B7B3EA3D",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:CountriesData.xcodeproj",
+        "identifier" : "E89027052CDA8BB5009AFC17",
+        "name" : "CountriesDataTests"
+      }
+    }
+  ],
+  "version" : 1
+}
